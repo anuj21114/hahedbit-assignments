@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: rgb(101, 92, 92);
+}
+
+header .logo {
+    font-size: 15px;
+}
+
+header .social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menubar {
+    background-color: #444;
+    color: white;
+}
+header .logo {
+    font-size: 24px;
+}
+
+header .social-links a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.menubar {
+    background-color: #444;
+    color: white;
+}
+
+.menubar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menubar ul li {
+    padding: 10px 20px;
+}
+
+.menubar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.content {
+    width: 75%;
+    padding: 20px;
+}
+
+.content .box {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.content .box img {
+    max-width: 100%;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
